@@ -1,0 +1,9 @@
+*.pyc
+*~
+.ropeproject
+.settings
+.tox
+deps
+trusty
+xenial
+bionic
