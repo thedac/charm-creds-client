@@ -1,12 +1,10 @@
 name: creds-client
-summary: <Fill in summary here>
-maintainer: David <David@omega>
+summary: Charm to consume the keystone-credentials interface
+maintainer: David Ames <david.ames@canonical.com>
 description: |
-  <Multi-line description here>
+    Consumes the keystone-credentials interface.
 tags:
-  # Replace "misc" with one or more whitelisted tags from this list:
-  # https://jujucharms.com/docs/stable/authors-charm-metadata
-  - misc
+  - openstack
 subordinate: false
 requires:
   identity-crentials:
